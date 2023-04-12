@@ -217,6 +217,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "MINTER_ROLE",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -347,6 +360,62 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "mint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "ids",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "mintBatch",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -692,11 +761,11 @@
 			]
 		},
 		"ERC1155Marketplace.sol": {
-			"keccak256": "0x569accfc55742276a64b56b3534d5658effeca33a86933c192fe018a132c2768",
+			"keccak256": "0xb8c4a38c0b6fb9722455f1841cdf7c690b8de63ee55aba8d80c672e73e3b3c10",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://dfd571d2d3bc1ab1d63e20dfbc0660a8c61250ee3a94c6d3d0b52b97f03bd658",
-				"dweb:/ipfs/QmVxUNm5rTEvi5UVPnDjDNyGG9gfBZt1HjFdisfJfacspx"
+				"bzz-raw://c0a22092c72542b3d915fbdfe6bdada6e185e8bcb189addc620b601bed63c656",
+				"dweb:/ipfs/QmaspQrV4URqheuaRdrkmCfisaZPW42Re1aXh9aqVQEdqF"
 			]
 		}
 	},
