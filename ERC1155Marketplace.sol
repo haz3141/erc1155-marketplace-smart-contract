@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 contract ERC1155Marketplace is ERC1155, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
 
-    constructor() ERC1155("") {
+    constructor(string memory _uri) ERC1155(_uri) {
         _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
     }
