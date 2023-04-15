@@ -68,7 +68,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "mintNFTee",
+				"name": "createNewCollection",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createNewERC1155",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -357,11 +364,11 @@
 			]
 		},
 		"ERC1155Marketplace.sol": {
-			"keccak256": "0xf08fea528aaab608fb3f0bebfd32c4596ea9643629c6026c9f253ec81abe0cf5",
+			"keccak256": "0x012d57bc88c192b5b30a65a2720323f85582261744417eb4422866fcd9771110",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://464e2405b653672804d46d019d8d52ab7ed027716519fbc3f644df4fdcce4739",
-				"dweb:/ipfs/QmU8MoxZfuoCViojV8b7jmCs8vLKc1Zo9PH4nUW83Qzmhw"
+				"bzz-raw://6df0e1d1716794a9536d8d45f88273fde8e8ab80a059d5d9fd12f65a209b5874",
+				"dweb:/ipfs/Qmb39p7EqVyfsun64MbNCzg92ZTQ1yqJnQuE5u6abMXph1"
 			]
 		},
 		"ERC1155NFTee.sol": {
@@ -370,6 +377,14 @@
 			"urls": [
 				"bzz-raw://6270a87b31e5d054d9c4ca981fb3fe2f9fded9be59b16b576f4caadfd5b60be9",
 				"dweb:/ipfs/Qmf2UphQZUgZPu5GVhhKNzbZeYr6vNJuV6emLbt7kzqM5G"
+			]
+		},
+		"ERC1155NFTeeFactory.sol": {
+			"keccak256": "0x7027c10f9c590de0b36663e7eabec12db8775d5ec15fb64fd7e2329df820c556",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://dcf87e82a347c34f21bbdd4a784b05ffebbb09cf124b50ecaceee2fd164bde1b",
+				"dweb:/ipfs/QmQgzR5HL3Az5GQvJkQ7GP6n2xG8NmpJgr44GED2M3AzBe"
 			]
 		}
 	},

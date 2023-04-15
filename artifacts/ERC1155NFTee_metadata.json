@@ -657,7 +657,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"ERC1155NFTONE.sol": "ERC1155NFTee"
+			"ERC1155NFTee.sol": "ERC1155NFTee"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -767,7 +767,7 @@
 				"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy"
 			]
 		},
-		"ERC1155NFTONE.sol": {
+		"ERC1155NFTee.sol": {
 			"keccak256": "0xa8c797e77996b6e88f74dfccdbbb15b31ba15a3d5b3f84643930b43365ac121c",
 			"license": "UNLICENSED",
 			"urls": [
