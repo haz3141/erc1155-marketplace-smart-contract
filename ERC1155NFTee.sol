@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 
 contract ERC1155NFTee is ERC1155, Ownable, Pausable, ERC1155Burnable, ERC1155Supply {
-    constructor() ERC1155("") {}
+    constructor(string memory _uri) ERC1155(_uri) {}
 
     function setURI(string memory newuri) public onlyOwner {
         _setURI(newuri);

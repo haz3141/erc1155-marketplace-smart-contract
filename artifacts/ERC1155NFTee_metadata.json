@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_uri",
+						"type": "string"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -768,11 +774,11 @@
 			]
 		},
 		"ERC1155NFTee.sol": {
-			"keccak256": "0xa8c797e77996b6e88f74dfccdbbb15b31ba15a3d5b3f84643930b43365ac121c",
+			"keccak256": "0xcc5186546e69308ff28736e4684db8f9a22bade3d639f116cf6504d827c7de4a",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://6270a87b31e5d054d9c4ca981fb3fe2f9fded9be59b16b576f4caadfd5b60be9",
-				"dweb:/ipfs/Qmf2UphQZUgZPu5GVhhKNzbZeYr6vNJuV6emLbt7kzqM5G"
+				"bzz-raw://a66f84531b83812ddd5e4d66b84b5c421fbe2edcc910bcb06d1657176922a5be",
+				"dweb:/ipfs/QmXjcrvLjfaHHYCv9sx3UtfRfiyKkCjjJdAkzzAHeUcBoi"
 			]
 		}
 	},

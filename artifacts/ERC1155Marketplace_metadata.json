@@ -6,48 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "uint256",
-						"name": "tokenId",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "seller",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "price",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
-						"internalType": "bool",
-						"name": "sold",
-						"type": "bool"
-					}
-				],
-				"name": "MarketListingCreated",
-				"type": "event"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -68,7 +26,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "createERC1155Collection",
+				"name": "createCollection",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -82,42 +40,48 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_collectionOwner",
-						"type": "address"
-					}
-				],
-				"name": "createERC1155Collection",
-				"outputs": [
+						"internalType": "uint256",
+						"name": "_collectionIndex",
+						"type": "uint256"
+					},
 					{
 						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "mintToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "createNewCollection",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "createNewERC1155",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "nfteeFactory",
+				"name": "nfteeCollections",
 				"outputs": [
 					{
-						"internalType": "contract ERC1155NFTeeFactory",
+						"internalType": "contract ERC1155NFTee",
 						"name": "",
 						"type": "address"
 					}
@@ -409,11 +373,11 @@
 			]
 		},
 		"ERC1155Marketplace.sol": {
-			"keccak256": "0xc661c0fd1d4163d5b79784a07f3edb42216fc13057b9943649e58a53b7c30182",
+			"keccak256": "0xe5315d88915ee0f5e57365b35ff2eca33a598fa328828d3920e8852a3bb3aa14",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://4aed871f8521c27747ae5c4277593d63eae8769497e53ec8a5a459d5dc370f0e",
-				"dweb:/ipfs/QmTbeLqdWvENJA3i5snr3YCPa7fMicso829UMm6P8dnUx4"
+				"bzz-raw://298362129efb409f1239dd3af66981a60eb9fa8bfcfec668d267bddcdf70127b",
+				"dweb:/ipfs/QmeV44LhDUVXqSV3DBg3VYPcBYAMwhfXPCBD7bJR23YPUB"
 			]
 		},
 		"ERC1155NFTee.sol": {
@@ -425,11 +389,11 @@
 			]
 		},
 		"ERC1155NFTeeFactory.sol": {
-			"keccak256": "0x5d52fdf3ae2a4fa7e215b95009e4723ed57b828ec306dec0061698b9a5865324",
+			"keccak256": "0xa909406cb44d915173c1d7f6b38d948e0fb5bee0e7ac5b2ab736d6d673de8b51",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://f53ac6828cc6c6501cac28caf84ecc0b82488d53aa7d56071a57f3d1e680fb87",
-				"dweb:/ipfs/QmNRyWno27pnvpEp3Fp1STkqoeog6cDUMAbgbE8EzEJMMF"
+				"bzz-raw://e7f13a8700bf5a846028d1c6692175aae878e98c861005616b5499e1e31f1352",
+				"dweb:/ipfs/QmQTVjde7GTo7aMANAv3ibYv9Uw6CLL82DFCsj86jbEnBm"
 			]
 		}
 	},
